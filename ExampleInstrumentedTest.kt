@@ -21,6 +21,9 @@ import java.net.URL
 import org.junit.Test
 import org.junit.runner.RunWith
 
+//Я подготовил массив, состоящий из списков следующей структуры: ( URL Изображения, широта города, долгота города, целевой тип местности ({sea|ocean|beach|mountain|snow|other}))
+//Картинки подаются в модуль обработки изображний (visionApi), а затем вывод сравнимается с истинным
+//
 /**
  * Instrumented test, which will execute on an Android device.
  *
